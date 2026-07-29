@@ -2,15 +2,15 @@ class Ztl < Formula
   desc "A terminal UI for comparing multiple time zones side by side"
   homepage "https://github.com/findyourexit/zonetimeline-tui"
   license "MIT"
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/findyourexit/zonetimeline-tui/releases/download/v0.3.0/ztl-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "03e2645581a32a843de2910af7b2698e12c5a84d5c03c872a45f4612bd1fee78"
+      url "https://github.com/findyourexit/zonetimeline-tui/releases/download/v0.4.0/ztl-0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9a0957bad512c9bf1f0d13b82f545e61639b1ff7b493564f5ed6b906a807eec8"
     else
-      url "https://github.com/findyourexit/zonetimeline-tui/releases/download/v0.3.0/ztl-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b997364cd506fbea9cbbb048bdabe824bedfc34b9ab3a0e565e18f7ae372c581"
+      url "https://github.com/findyourexit/zonetimeline-tui/releases/download/v0.4.0/ztl-0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "2e17233ee55214814bbb8cb0c32c479d634d162f9e09fa97dd6dfab28551d698"
     end
   end
 
