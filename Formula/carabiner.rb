@@ -2,15 +2,15 @@ class Carabiner < Formula
   desc "Unified AI rules management CLI"
   homepage "https://github.com/findyourexit/carabiner"
   license "MIT"
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/findyourexit/carabiner/releases/download/v0.1.5/carabiner-0.1.5-aarch64-apple-darwin.tar.gz"
-      sha256 "877f818fdc6526d7b9a38d80ebb0cf161de0cebb7590fcf14838a03e41980e73"
+      url "https://github.com/findyourexit/carabiner/releases/download/v0.1.6/carabiner-0.1.6-aarch64-apple-darwin.tar.gz"
+      sha256 "6841490dee1053b2dbbd1c62635b9fd16cf291a94f209bd051d6c4a5f630a6ce"
     else
-      url "https://github.com/findyourexit/carabiner/releases/download/v0.1.5/carabiner-0.1.5-x86_64-apple-darwin.tar.gz"
-      sha256 "4bf533cba36a8737404316667c5ea15cb38ca9871b87a9322f1d1e9f34c47465"
+      url "https://github.com/findyourexit/carabiner/releases/download/v0.1.6/carabiner-0.1.6-x86_64-apple-darwin.tar.gz"
+      sha256 "594a781fe02396689666aba7ae9f2d1a23d7bbfd499b92365768b6ced58fca44"
     end
   end
 
