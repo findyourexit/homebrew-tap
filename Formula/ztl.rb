@@ -1,8 +1,7 @@
 class Ztl < Formula
-  desc "A terminal UI for comparing multiple time zones side by side"
+  desc "Terminal UI for comparing multiple time zones side by side"
   homepage "https://github.com/findyourexit/zonetimeline-tui"
   license "MIT"
-  version "0.4.1"
 
   on_macos do
     if Hardware::CPU.arm?
