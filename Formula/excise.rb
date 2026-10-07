@@ -8,21 +8,21 @@ class Excise < Formula
   license "MIT"
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/findyourexit/excise/releases/download/v1.3.0/excise-aarch64-apple-darwin-v1.3.0.tar.gz"
-      sha256 "270ed1e886f6ed9c8d5ae32e1a98b4d84f87f8960e11e041be550a795ef72056"
+      url "https://github.com/findyourexit/excise/releases/download/v1.4.0/excise-aarch64-apple-darwin-v1.4.0.tar.gz"
+      sha256 "99d6217cdd74fb8c4a83a8d6472357b4bd182d60e9c76ee9eb030d32562f2a23"
     else
-      url "https://github.com/findyourexit/excise/releases/download/v1.3.0/excise-x86_64-apple-darwin-v1.3.0.tar.gz"
-      sha256 "ddc9ab5826cfe49b7287b3666dd9bd6d513971392a9cc536b39cf2e5df34d32a"
+      url "https://github.com/findyourexit/excise/releases/download/v1.4.0/excise-x86_64-apple-darwin-v1.4.0.tar.gz"
+      sha256 "1c71c91b47b0de7245ed46b9812bebf2dfde4cb9bc93595c7addfe7a5a25515d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/findyourexit/excise/releases/download/v1.3.0/excise-aarch64-unknown-linux-gnu-v1.3.0.tar.gz"
-      sha256 "9fdc8c9086748992651422e97fd55e61431c397e1b30ec1cc67503ff2d03ddb1"
+      url "https://github.com/findyourexit/excise/releases/download/v1.4.0/excise-aarch64-unknown-linux-gnu-v1.4.0.tar.gz"
+      sha256 "881cde0dbe238ee1c738420209048cc05285ce4ef43c1ebf5f52cf033e7e6521"
     else
-      url "https://github.com/findyourexit/excise/releases/download/v1.3.0/excise-x86_64-unknown-linux-gnu-v1.3.0.tar.gz"
-      sha256 "1f83acd45855ca8851510f6078d3910e827228fc773410b8075fc89b1bfa5020"
+      url "https://github.com/findyourexit/excise/releases/download/v1.4.0/excise-x86_64-unknown-linux-gnu-v1.4.0.tar.gz"
+      sha256 "38857c3e466cb3909030a1de09dad2a3bd5029dc14c8733fc39d97628a9863b8"
     end
   end
 
